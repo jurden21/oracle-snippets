@@ -4,7 +4,6 @@
   https://docs.oracle.com/en/database/oracle/oracle-database/23/sqlrf/MERGE.html
 */
 
--- Initialization
 drop table trg_table purge;
 drop table src_table purge;
 create table trg_table (id number, trg_name varchar2(100), src_name varchar2(100));
@@ -24,7 +23,7 @@ insert into src_table (id, src_name) values (9, 'src_name9');
 commit;
 select * from src_table;
 
--- Snippet
+-- MERGE
 merge into trg_table t
 using (select id, src_name from src_table) s
 on (t.id = s.id)
