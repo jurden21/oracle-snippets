@@ -1,6 +1,6 @@
 /*
   Insert All/First Snippet
-  https://github.com/jurden21/insert-all-first-snippet.sql
+  https://github.com/jurden21/oracle-snippets
   https://docs.oracle.com/en/database/oracle/oracle-database/23/sqlrf/INSERT.html
 */
 
