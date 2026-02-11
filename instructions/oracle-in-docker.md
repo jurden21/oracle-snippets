@@ -1,3 +1,5 @@
+> More information: https://github.com/jurden21/oracle-snippets
+
 # Create a Docker container for Oracle Database
 
 ## Oracle Dockerfiles repository:

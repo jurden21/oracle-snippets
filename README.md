@@ -1,2 +1,2 @@
-# oracle-snippets
+# Oracle Snippets
 My cheat sheet
